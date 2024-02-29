@@ -28,7 +28,7 @@ def test_getRatio_priceBzero(self):
     price_b = 0
     self.assertisNone(getRatio(price_a, price_b))
 def test_getRatio_priceAzero(self):
-    price_a = 112.5
+    price_a = 112.8
     price_b = 0
     self.assertisNone(getRatio(price_a, price_b))
 
